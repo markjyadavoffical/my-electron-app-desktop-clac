@@ -1,21 +1,36 @@
 # Calculator Desktop App
 
-A simple, cross-platform desktop calculator built with Electron. Supports basic arithmetic operations: addition (+), subtraction (-), multiplication (*), and division (/). Includes clear (C), backspace (⌫), and error handling.
+A simple cross-platform calculator built with Electron. Supports +, -, *, / operations with clear (C), backspace (⌫), and error handling.
 
 ## Features
-- Clean, responsive UI with a grid of buttons.
-- Real-time display for input and results.
-- Handles errors (e.g., division by zero) gracefully.
-- Built for Windows (with .exe packaging), but works on macOS/Linux too.
-- Lightweight and easy to extend (add advanced functions like sqrt, pow).
+- Responsive grid UI with real-time display.
+- Error handling (e.g., division by zero).
+- Windows .exe packaging; works on macOS/Linux.
+- Easy to extend (e.g., add sqrt).
 
 ## Prerequisites
-- Node.js (v20+ LTS) installed: [Download here](https://nodejs.org).
-- npm (comes with Node.js).
+- Node.js (v20+ LTS): [Download](https://nodejs.org).
+- Git: [Download](https://git-scm.com/downloads).
 
-## Setup Instructions
-1. **Clone or Create Project**:
-   - Create a folder: `mkdir calculator-app && cd calculator-app`.
-   - Copy the files: `package.json`, `main.js`, `index.html`, `renderer.js`, and this `README.md`.
+## Setup
+1. **Clone Repo**:
+git clone https://github.com/markjyadavoffical/my-electron-app-desktop-clac.git
 
 2. **Install Dependencies**:
+cd my-electron-app-desktop-clac
+npm install
+
+3. **Build and Run**:
+npm run build
+npm run start  
+
+4. **Packaging**:
+npm run build
+npm run package
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+## Author
+- [Mark J Yadav](https://github.com/markjyadavoffical)
+
